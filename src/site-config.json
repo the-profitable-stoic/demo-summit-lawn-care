@@ -1,0 +1,488 @@
+{
+  "business": {
+    "name": "Summit Lawn Care",
+    "phone": "555-law-r91",
+    "category": "lawn-care",
+    "city": "Raleigh",
+    "state": "NC"
+  },
+  "design": {
+    "preset": {
+      "id": "lawn-care-mountain-bold",
+      "categoryGroup": "lawn-care",
+      "name": "Mountain Bold",
+      "recipeFile": "lawn-care/mountain-bold.astro",
+      "colors": {
+        "primary": "#15803D",
+        "primaryDark": "#0f5a2b",
+        "primaryLight": "#c5dfcf",
+        "secondary": "#22C55E",
+        "accent": "#A3E635",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#15803D",
+        "surface": "#F0F4F7",
+        "text": "#0F172A",
+        "textLight": "#64748B",
+        "textOnDark": "#FFFFFF",
+        "border": "#D1D5DB"
+      },
+      "typography": {
+        "headingFont": "Plus Jakarta Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "medium"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "lawn-care/mountain-bold"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Lawn Care Tailored to Raleigh",
+      "heroSubline": "Expert lawn services designed for the Triangle's unique climate and soil. Keeping your yard healthy from Durham to Apex with Piedmont-specific solutions.",
+      "aboutTitle": "Rooted in Raleigh",
+      "aboutText": [
+        "Founded in 2012, Summit Lawn Care grew from a single truck serving NC State faculty neighborhoods into Wake County's most trusted lawn service. We've seen Raleigh transform from tobacco town to tech hub, adapting our methods to new construction yards and historic properties alike.",
+        "Our approach blends soil science with practical maintenance. We test for Piedmont red clay compaction in every service, adjusting fertilization and aeration to combat Raleigh's heavy summer rains and drought cycles.",
+        "When we're not mowing, you'll find our team volunteering at Pullen Park cleanups or advising homeowners at the NC Museum of Art's garden workshops."
+      ],
+      "valueProps": [
+        {
+          "title": "Clay Specialists",
+          "description": "We know how to improve drainage in Raleigh's stubborn red clay soils, preventing standing water after summer storms."
+        },
+        {
+          "title": "Storm Recovery",
+          "description": "Quick response for fallen limbs and debris after Triangle ice storms or spring thunderstorms."
+        },
+        {
+          "title": "Tech Hub Ready",
+          "description": "Flexible scheduling for Research Triangle professionals with precise edging around new construction landscaping."
+        },
+        {
+          "title": "Historic Home Care",
+          "description": "Gentler techniques for mature trees and delicate root systems in ITB neighborhoods."
+        }
+      ],
+      "ctaHeadline": "See Your Lawn Differently",
+      "ctaSubline": "Schedule your free assessment to get a Piedmont-specific care plan today."
+    },
+    "services": [
+      {
+        "slug": "red-clay-lawn-aeration",
+        "name": "Red Clay Lawn Aeration",
+        "shortDescription": "Core aeration designed for Raleigh's compacted clay soils.",
+        "description": "Piedmont red clay turns concrete-hard by midsummer, starving grass roots of air and water. Our deep-tine aeration removes 3\" plugs at 4\" spacing - closer than standard services - to effectively break up compaction layers.\n\nWe time treatments around Raleigh's rainy seasons, typically spring and early fall, when soil moisture helps fractures stay open longer. Post-service, we apply a sand-topdressing mix to improve drainage in problem areas like Brier Creek's low-lying yards.\n\nIncludes soil pH testing to adjust for Triangle-specific mineral imbalances that affect nutrient uptake.",
+        "process": [
+          "Step 1: Soil moisture assessment using probe tests in multiple zones",
+          "Step 2: Deep-tine aeration with stand-on equipment for precise depth control",
+          "Step 3: Manual removal of excess plugs from hardscapes",
+          "Step 4: Custom sand/organic topdressing application"
+        ],
+        "benefits": [
+          "Reduces summer drought stress",
+          "Improves fertilizer efficiency by 40%",
+          "Prevents winter ice sheet formation",
+          "Extends grass growing season by 3-4 weeks"
+        ],
+        "faq": [
+          {
+            "question": "Why can't I just spike aerate myself?",
+            "answer": "Spikes compact clay sideways creating more problems. Our core removal method is the only proven solution for Piedmont soils."
+          },
+          {
+            "question": "How often should Raleigh lawns be aerated?",
+            "answer": "Most properties need annual service, but newer construction yards with heavy equipment compaction may benefit from biannual treatments."
+          }
+        ]
+      },
+      {
+        "slug": "storm-damage-cleanup",
+        "name": "Storm Damage Cleanup",
+        "shortDescription": "Emergency response for fallen limbs and debris after Triangle storms.",
+        "description": "When Raleigh's spring thunderstorms or winter ice storms hit, we deploy same-day crews with proper insurance and equipment. Unlike general landscapers, we focus on preventing secondary lawn damage during cleanup.\n\nOur process includes turf protection mats under equipment, careful root zone inspection around damaged trees, and proper disposal of diseased wood (common with aging pines in Five Points). For ongoing issues, we'll recommend preventive pruning to reduce future storm vulnerability.\n\nService includes temporary erosion control measures for properties near Crabtree Creek flood zones until permanent repairs can be made.",
+        "process": [
+          "Step 1: Safety assessment of hanging limbs and electrical hazards",
+          "Step 2: Strategic debris removal to prevent matted grass",
+          "Step 3: Root zone evaluation for hidden damage",
+          "Step 4: Optional preventive pruning consultation"
+        ],
+        "benefits": [
+          "Prevents fungal growth under debris piles",
+          "Reduces mosquito breeding sites",
+          "Protects vulnerable saplings",
+          "Documents damage for insurance claims"
+        ],
+        "faq": [
+          {
+            "question": "Do you handle large tree removals?",
+            "answer": "We partner with licensed arborists for trunks over 12\" diameter but handle all clean-up and stump grinding."
+          },
+          {
+            "question": "What's your response time after major storms?",
+            "answer": "Priority goes to safety hazards first, but most residential properties are addressed within 48 hours of contact."
+          }
+        ]
+      },
+      {
+        "slug": "new-construction-lawn-establishment",
+        "name": "New Construction Lawn Establishment",
+        "shortDescription": "Soil remediation and seeding for Raleigh's booming developments.",
+        "description": "New homes in North Hills and Brier Creek often sit on heavily compacted subsoil with minimal topsoil. Our establishment program goes beyond basic hydroseeding to address Raleigh builders' common shortcuts.\n\nWe begin with deep subsoiling to break up plow pans, then amend with composted pine bark - a local waste product that improves clay better than peat moss. Tall fescue blends are custom-mixed for sun exposure, with shade-tolerant options for lots near mature hardwoods.\n\nIncludes 8-week follow-up visits to monitor irrigation needs and spot-treat early weeds before they take hold in vulnerable new grass.",
+        "process": [
+          "Step 1: Subsoil penetration testing with a penetrometer",
+          "Step 2: Amendment mixing based on soil lab results",
+          "Step 3: Precision seeding with straw-free erosion control",
+          "Step 4: Follow-up germination monitoring"
+        ],
+        "benefits": [
+          "Avoids costly lawn replacement later",
+          "Reduces first-year water use by 35%",
+          "Prevents construction debris surfacing later",
+          "Includes crabgrass pre-emergent application"
+        ],
+        "faq": [
+          {
+            "question": "Why not just install sod?",
+            "answer": "Sod often fails on uncompacted subsoil within two years. Our method builds lasting root systems despite builder-grade soil conditions."
+          },
+          {
+            "question": "When should new construction lawns be started?",
+            "answer": "Ideal timing is September-October to leverage Raleigh's fall rains, but we've developed successful spring protocols for tech workers moving mid-year."
+          }
+        ]
+      },
+      {
+        "slug": "historic-home-lawn-care",
+        "name": "Historic Home Lawn Care",
+        "shortDescription": "Gentle techniques for Raleigh's older neighborhoods.",
+        "description": "Inside-the-Beltline properties need different care than modern subdivisions. We use lighter equipment and heritage grass blends to protect delicate root systems under century-old oaks while still providing a manicured look.\n\nOur team trains on identifying and preserving antique garden features often hidden under overgrowth - from brick edging in Oakwood to hidden irrigation systems in Hayes Barton. Fertilization programs account for lead-contaminated soils common in pre-1970s properties.\n\nIncludes careful monitoring for invasive species like English ivy that threaten historic trees, with manual removal methods that preserve hardscapes.",
+        "process": [
+          "Step 1: Delicate debris removal with hand rakes",
+          "Step 2: Soil testing for heavy metals",
+          "Step 3: Heritage grass blend overseeding",
+          "Step 4: Ivy mitigation planning"
+        ],
+        "benefits": [
+          "Protects vulnerable tree roots",
+          "Revives original landscape character",
+          "Prevents hardscape damage from ivy",
+          "Complies with historic district guidelines"
+        ],
+        "faq": [
+          {
+            "question": "Do you work with historic preservation boards?",
+            "answer": "Yes, we've completed projects in all five Raleigh historic districts and know approval processes for significant alterations."
+          },
+          {
+            "question": "Can you replicate old lawn patterns?",
+            "answer": "We've successfully recreated 1920s-style ribbon lawns and other period-appropriate designs using archival research."
+          }
+        ]
+      },
+      {
+        "slug": "turf-builder-program",
+        "name": "Turf Builder Program",
+        "shortDescription": "Year-round lawn health plan for Triangle conditions.",
+        "description": "Our signature six-visit program addresses each season's challenges in Raleigh's climate. Unlike national franchise formulas, we adjust timing and products based on real-time weather patterns and NC State turf research.\n\nSpring treatments focus on preventing dollar weed in low areas while summer visits include grub monitoring specific to Piedmont beetle cycles. Fall brings essential micronutrient boosts before winter dormancy, with optional snow mold prevention for properties near Lake Boone Trail's frost pockets.\n\nIncludes digital soil reports after each service and priority scheduling for storm damage response between visits.",
+        "process": [
+          "Step 1: Dormant season soil analysis",
+          "Step 2: Pre-emergent application timed to soil temps",
+          "Step 3: Summer hydration optimization",
+          "Step 4: Fall root-building nutrition"
+        ],
+        "benefits": [
+          "Reduces total chemical use by 30%",
+          "Prevents reactive pest control costs",
+          "Maintains color through summer stress",
+          "Adapts to your microclimate"
+        ],
+        "faq": [
+          {
+            "question": "How does this differ from big box store programs?",
+            "answer": "We test soil before every application and skip unnecessary treatments, unlike calendar-based corporate plans that over-treat."
+          },
+          {
+            "question": "What if I need extra visits?",
+            "answer": "Program members get discounted spot treatments for unexpected issues like fire ant mounds or localized dry spots."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marshall T.",
+        "rating": 5,
+        "service": "Red Clay Lawn Aeration",
+        "text": "After three failed attempts with other companies, Summit finally fixed our standing water issues near the Crabtree watershed. Their deep plugs and sand mix made an immediate difference - our backyard no longer turns into a swamp after summer storms. The technician even pointed out where the builder had buried construction debris that was causing drainage problems.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Priya K.",
+        "rating": 5,
+        "service": "New Construction Lawn Establishment",
+        "text": "Moving from California, we had no idea how to deal with Raleigh's red clay. Summit's soil prep and custom seed blend gave us a lush lawn by Thanksgiving despite starting in September. Their follow-up visits caught early fungus spots before they spread, saving us thousands compared to our neighbors who had to resod.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Eleanor W.",
+        "rating": 5,
+        "service": "Historic Home Lawn Care",
+        "text": "Finding someone who understands Oakwood's preservation requirements was a challenge until Summit. They revived our 1920s ribbon lawn using archival photos and hand-tied the new edging to match original patterns. Most importantly, their light equipment hasn't damaged the antique brick walkways like previous services did.",
+        "date": "2024-11-05"
+      },
+      {
+        "name": "Carlos R.",
+        "rating": 5,
+        "service": "Storm Damage Cleanup",
+        "text": "When the December ice storm took down our magnolia, Summit had crews out before the power came back on. They saved what could be salvaged and documented everything for insurance. What impressed me most was how they protected the remaining grass with plywood paths during cleanup - no ruts or compaction like last time.",
+        "date": "2024-12-18"
+      },
+      {
+        "name": "Danielle H.",
+        "rating": 5,
+        "service": "Turf Builder Program",
+        "text": "Our lawn used to go dormant by June every year. Two seasons with Summit's program and we've got green grass through August without excessive watering. Their soil temperature monitoring ensures treatments actually work instead of just following some corporate calendar. Worth every penny for Raleigh homeowners.",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "James L.",
+        "rating": 5,
+        "service": "Red Clay Lawn Aeration",
+        "text": "As a retired NC State soil scientist, I'm picky about lawn services. Summit's aeration depth matches university recommendations exactly, and their pH adjustments account for our neighborhood's unique mineral content. Finally found a team that speaks my language - they even discussed my soil test results in detail.",
+        "date": "2024-10-11"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Raleigh Lawn Care Experts | Summit Lawn Care",
+        "description": "Local lawn services tailored to Raleigh's red clay soils and climate. Serving Durham to Apex with Piedmont-specific solutions since 2012."
+      },
+      "about": {
+        "title": "About Our Raleigh Lawn Care Company",
+        "description": "Learn how Summit Lawn Care's deep roots in the Triangle inform our approach to Raleigh's unique lawn challenges."
+      },
+      "services": {
+        "title": "Raleigh-Specific Lawn Services",
+        "description": "Specialized treatments for red clay, storm damage, and historic homes - designed for Wake County's unique conditions."
+      },
+      "contact": {
+        "title": "Contact Raleigh's Lawn Care Specialists",
+        "description": "Schedule your free lawn assessment with Summit's Triangle-area experts. Serving Durham, Cary, Chapel Hill and beyond."
+      },
+      "reviews": {
+        "title": "Raleigh Lawn Care Reviews",
+        "description": "See what Triangle homeowners say about Summit's red clay solutions and storm recovery services."
+      },
+      "service-areas": {
+        "title": "Lawn Care Service Areas Near Raleigh",
+        "description": "Detailed information about our lawn services in Durham, Cary, Chapel Hill, Apex and Morrisville neighborhoods."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Durham",
+        "slug": "durham-nc",
+        "state": "NC",
+        "content": "Summit Lawn Care provides expert lawn maintenance and landscaping services to Durham, a vibrant city known for its mix of historic charm and modern revitalization. With hot, humid summers, maintaining a healthy lawn requires consistent care, including proper mowing, fertilization, and irrigation. Our team is experienced in addressing the unique challenges of Durham's climate, ensuring lush, green lawns year-round. Whether you live in a renovated downtown loft or a suburban neighborhood, we tailor our services to fit your property's specific needs.",
+        "localContext": "Durham features a blend of renovated industrial lofts and historic homes, with a growing population of young professionals and families.",
+        "nearbyAreas": [
+          "Raleigh",
+          "Chapel Hill",
+          "Morrisville"
+        ]
+      },
+      {
+        "city": "Cary",
+        "slug": "cary-nc",
+        "state": "NC",
+        "content": "Serving Cary's master-planned communities, Summit Lawn Care specializes in maintaining the pristine lawns that complement this city's well-kept neighborhoods. The hot, humid summers here demand regular lawn care to prevent heat stress and weed overgrowth. We offer comprehensive services, including aeration, pest control, and seasonal cleanups, to keep your yard looking its best. Our team understands the aesthetic expectations of Cary's homeowners and delivers reliable, high-quality results.",
+        "localContext": "Cary is known for its meticulously planned suburban developments, attracting families and professionals seeking a high quality of life.",
+        "nearbyAreas": [
+          "Raleigh",
+          "Apex",
+          "Morrisville"
+        ]
+      },
+      {
+        "city": "Chapel Hill",
+        "slug": "chapel-hill-nc",
+        "state": "NC",
+        "content": "Summit Lawn Care is proud to serve Chapel Hill, a diverse community with a mix of student housing, historic homes, and modern residences. The hot, humid climate here requires specialized lawn care to combat common issues like fungal growth and drought stress. Our services include customized fertilization plans, weed control, and irrigation management to keep your lawn healthy. Whether you're a homeowner or a property manager, we provide reliable care tailored to Chapel Hill's unique needs.",
+        "localContext": "Chapel Hill's housing market is influenced by its university population, offering a blend of older homes and newer developments.",
+        "nearbyAreas": [
+          "Durham",
+          "Carrboro",
+          "Hillsborough"
+        ]
+      },
+      {
+        "city": "Apex",
+        "slug": "apex-nc",
+        "state": "NC",
+        "content": "Summit Lawn Care helps Apex homeowners maintain beautiful lawns in this fast-growing suburb. With hot, humid summers, Apex lawns benefit from our expert care, including proper watering schedules and disease prevention. We specialize in servicing newer family developments, ensuring that your landscape enhances your home's curb appeal. From regular mowing to seasonal treatments, our team delivers consistent, professional results.",
+        "localContext": "Apex is characterized by its family-friendly neighborhoods and rapid growth, with many homes built in the 2000s-2020s.",
+        "nearbyAreas": [
+          "Cary",
+          "Holly Springs",
+          "Fuquay-Varina"
+        ]
+      },
+      {
+        "city": "Morrisville",
+        "slug": "morrisville-nc",
+        "state": "NC",
+        "content": "Summit Lawn Care serves Morrisville, a tech-centric community with a demand for high-quality lawn maintenance. The hot, humid climate here requires attentive care to keep lawns thriving. Our services include fertilization, weed control, and pest management, tailored to the needs of Morrisville's busy professionals. Whether you're in a townhome or a single-family residence, we ensure your outdoor space looks its best.",
+        "localContext": "Morrisville's housing is popular among tech workers due to its proximity to Research Triangle Park (RTP).",
+        "nearbyAreas": [
+          "Cary",
+          "Durham",
+          "Raleigh"
+        ]
+      },
+      {
+        "city": "Raleigh",
+        "slug": "raleigh-nc",
+        "state": "NC",
+        "content": "Summit Lawn Care is Raleigh's trusted lawn maintenance provider, offering services to keep your yard healthy in the hot, humid climate. From historic neighborhoods to modern subdivisions, we adapt our care to suit Raleigh's diverse landscapes. Our team provides everything from routine mowing to specialized treatments, ensuring your lawn stays vibrant year-round.",
+        "localContext": "Raleigh combines urban living with suburban charm, featuring a mix of older homes and new developments.",
+        "nearbyAreas": [
+          "Cary",
+          "Durham",
+          "Garner"
+        ]
+      },
+      {
+        "city": "Holly Springs",
+        "slug": "holly-springs-nc",
+        "state": "NC",
+        "content": "Summit Lawn Care serves Holly Springs, a family-oriented community with a focus on outdoor living. Our lawn care services are designed to combat the challenges of hot, humid summers, including proper irrigation and disease management. Whether you have a small yard or a sprawling lawn, we provide personalized care to meet your needs.",
+        "localContext": "Holly Springs is known for its parks and recreational facilities, making lawn care a priority for residents.",
+        "nearbyAreas": [
+          "Apex",
+          "Fuquay-Varina",
+          "Cary"
+        ]
+      },
+      {
+        "city": "Wake Forest",
+        "slug": "wake-forest-nc",
+        "state": "NC",
+        "content": "Summit Lawn Care helps Wake Forest homeowners maintain lush, healthy lawns despite the hot, humid climate. Our services include seasonal fertilization, weed control, and aeration to promote strong root growth. Whether your home is in a historic district or a new development, we tailor our approach to fit your landscape's needs.",
+        "localContext": "Wake Forest blends historic charm with modern growth, attracting families and professionals alike.",
+        "nearbyAreas": [
+          "Raleigh",
+          "Rolesville",
+          "Youngsville"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "storm-damage-cleanup": "/images/service-storm-damage-cleanup.webp",
+      "new-construction-lawn-establishment": "/images/service-new-construction-lawn-establishment.webp",
+      "red-clay-lawn-aeration": "/images/service-red-clay-lawn-aeration.webp",
+      "historic-home-lawn-care": "/images/service-historic-home-lawn-care.webp",
+      "turf-builder-program": "/images/service-turf-builder-program.webp"
+    },
+    "servicesResponsive": {
+      "storm-damage-cleanup": {
+        "src": "/images/service-storm-damage-cleanup.webp",
+        "srcset": "/images/service-storm-damage-cleanup-400w.webp 400w, /images/service-storm-damage-cleanup-800w.webp 800w, /images/service-storm-damage-cleanup-1200w.webp 1200w, /images/service-storm-damage-cleanup.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "new-construction-lawn-establishment": {
+        "src": "/images/service-new-construction-lawn-establishment.webp",
+        "srcset": "/images/service-new-construction-lawn-establishment-400w.webp 400w, /images/service-new-construction-lawn-establishment-800w.webp 800w, /images/service-new-construction-lawn-establishment-1200w.webp 1200w, /images/service-new-construction-lawn-establishment.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "red-clay-lawn-aeration": {
+        "src": "/images/service-red-clay-lawn-aeration.webp",
+        "srcset": "/images/service-red-clay-lawn-aeration-400w.webp 400w, /images/service-red-clay-lawn-aeration-800w.webp 800w, /images/service-red-clay-lawn-aeration-1200w.webp 1200w, /images/service-red-clay-lawn-aeration.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "historic-home-lawn-care": {
+        "src": "/images/service-historic-home-lawn-care.webp",
+        "srcset": "/images/service-historic-home-lawn-care-400w.webp 400w, /images/service-historic-home-lawn-care-800w.webp 800w, /images/service-historic-home-lawn-care-1200w.webp 1200w, /images/service-historic-home-lawn-care.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "turf-builder-program": {
+        "src": "/images/service-turf-builder-program.webp",
+        "srcset": "/images/service-turf-builder-program-400w.webp 400w, /images/service-turf-builder-program-800w.webp 800w, /images/service-turf-builder-program-1200w.webp 1200w, /images/service-turf-builder-program.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
